@@ -1,0 +1,11 @@
+# Data lives outside git: keep the datasets/ folder structure, ignore its contents
+datasets/**
+!datasets/**/
+!datasets/**/.gitkeep
+!datasets/README.md
+
+# Local environment / IDE
+.venv/
+.idea/
+.ipynb_checkpoints/
+__pycache__/
